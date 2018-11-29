@@ -1,5 +1,8 @@
 # Install Linux Cluster on Local Windows Dev Machine
 
+
+
+
 ## Install Linux VM
 
 ### Enable Hyper-V
@@ -43,20 +46,6 @@ sudo apt-get install gradle
 
 Now service fabric should be up and running, use <http://[YOUR_LINUX_IP]:19080/Explorer/index.html#> to view service fabric mangement tool.
  
-## Install Service Fabric CLI
-
-### Install Python 3.7
-
-https://www.python.org/downloads/release/python-370/
-
-### Install Service Fabric CLI from Pip
-
-``` Bash
-pip install sfctl
-```
-
-if you would like to access Azure Service Fabric, install the **Azure CLI** from here <https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest>
-
 ### Setup Eclipse Plug-in
 
 Follow this article to setup eclipse plugin
